@@ -6,57 +6,67 @@
       rel="icon"
       href="https://cdn-icons-png.flaticon.com/512/23/23358.png"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body style="background-color: #189ab4">
     <!-- CONTACTO-->
     <a href="contacto.html">Contacto</a>
     <div>
       <!-- TITULO-->
-      <h1 style="color: red; background-color: palegoldenrod">
-        BIBLIOTECA AGUSTIN LOPEZ
-      </h1>
+      <h1 class="banner">BIBLIOTECA AGUSTIN LOPEZ</h1>
       <!-- LIBROS-->
-      <h2>Libros</h2>
+      <h2 class="titulo">Libros</h2>
       <!-- BUSQUEDA-->
       <form method="GET">
         <input type="text" name="busqueda" id="busqueda" />
         <input type="submit" value="Buscar" />
       </form>
     </div>
-    <!-- LISTA-->
-    <div style="background-color: rgb(214, 183, 125)">
-      <h3>La naranja mecanica</h3>
-      <img
-        src="https://images.cdn1.buscalibre.com/fit-in/360x360/81/22/812252fdfa443853ac4f0c38d89a9690.jpg"
-        alt="La naranja mecanica"
-        width="100"
-      />
-      <h2>Autor: Anthony Burgess</h2>
-      <h2>Genero: Novela</h2>
-      <p>
-        <em>
-          Alex es un joven muy agresivo que tiene dos pasiones: la violencia
-          desaforada y Beethoven.<br />
-          Es el jefe de la banda de los drugos, que dan rienda suelta a sus
-          instintos más salvajes aterrorizando a la población.
-        </em>
-      </p>
-    </div>
-    <div style="background-color: rgb(190, 162, 109)">
-      <h3>Free to Choose</h3>
-      <img
-        src="https://m.media-amazon.com/images/I/61Zhy-hiepL._AC_UF1000,1000_QL80_.jpg"
-        alt="Free to Choose"
-        width="100"
-      />
-      <h2>Autor: Milton Friedman</h2>
-      <h2>Genero: Economia</h2>
-      <p>
-        <em>
-          The classic inquiry into the relationship beetween freedom and
-          economics.
-        </em>
-      </p>
+    <!-- Container-->
+    <div class="container">
+      <div class="box">
+        <h3 class="titulo">La naranja mecanica</h3>
+        <img
+          src="https://images.cdn1.buscalibre.com/fit-in/360x360/81/22/812252fdfa443853ac4f0c38d89a9690.jpg"
+          alt="La naranja mecanica"
+          width="200px"
+        />
+        <h2>Autor: Anthony Burgess</h2>
+        <h2>Genero: Novela</h2>
+      </div>
+      <div class="box">
+        <h2 class="titulo">Free to Choose</h2>
+        <img
+          src="https://m.media-amazon.com/images/I/61Zhy-hiepL._AC_UF1000,1000_QL80_.jpg"
+          alt="Free to Choose"
+          width="200px"
+          ;
+        />
+        <h2>Autor: Milton Friedman</h2>
+        <h2>Genero: Economia</h2>
+      </div>
+      <div class="box">
+        <h2 class="titulo">Como ganar amigos e influir sobre las personas</h2>
+        <img
+          src="https://www.tematika.com/media/catalog/Ilhsa/Imagenes/424246.jpg"
+          alt="Como ganar amigos e influir sobre las personas"
+          width="200px"
+          ;
+        />
+        <h2>Autor: Dale Carnegie</h2>
+        <h2>Genero: Autoayuda</h2>
+      </div>
+      <div class="box">
+        <h2 class="titulo">Christine</h2>
+        <img
+          src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781668018071/christine-9781668018071_hr.jpg"
+          alt="Christine"
+          width="200px"
+          ;
+        />
+        <h2 class>Autor: Stephen King</h2>
+        <h2>Genero: Novela</h2>
+      </div>
     </div>
   </body>
 </html>
